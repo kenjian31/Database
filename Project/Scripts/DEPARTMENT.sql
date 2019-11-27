@@ -1,0 +1,6 @@
+CREATE TABLE DEPARTMENT
+( DID       INT      NOT NULL,
+  Dname     VARCHAR(15)     NOT NULL,
+  PRIMARY KEY (DID),
+  UNIQUE  (Dname)
+);
